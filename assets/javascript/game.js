@@ -175,4 +175,11 @@ gameInitialize();
 
 })
 
+/*Additional Notes
+Given more time would go back and separate heathbar value from healthbar dispaly so the number can remain in place while the bar shrinks
+Fine-tune the game balance.
+Create function to add fighters
+Add attack and hit animations
+Add sound effects
 
+*/
