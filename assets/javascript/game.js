@@ -181,5 +181,4 @@ Fine-tune the game balance.
 Create function to add fighters
 Add attack and hit animations
 Add sound effects
-
 */
