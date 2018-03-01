@@ -1,0 +1,117 @@
+body{
+	background-image: url(../images/starfield.jpg)
+}
+
+#game {
+	margin: auto;
+	width: 90%;
+	text-align: center;
+
+}
+
+h1, p {
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+}
+
+h1 {
+	color: white ;
+	font-weight: bold;
+}
+
+
+.fighter {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: solid 3px black;
+	margin: 10px;
+	vertical-align: middle;
+	position: relative;
+}
+
+#hanger {
+	width: 100%;
+	height: 245px;
+	background-image: url(../images/hanger.jpg);
+	background-size: contain;
+	margin: auto;
+	/*background: #93979A;*/
+	text-align: center;
+
+}
+
+.fighterImage {
+	width: 200px;
+	max-height: 180px;
+}
+
+.healthBar {
+	background-color: green;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-weight: bold;
+}
+
+#enemyZone {
+	float:left;
+	border: solid 3px black;
+	height: 250px;
+	width: 250px;
+}
+
+#charZone {
+	float:left;
+	border: solid 3px black;
+	height: 250px;
+	width: 250px;
+}
+
+#attack {
+	float:left;
+	border: solid 3px black;
+	height: 250px;
+	width: 250px;
+	text-align: center;
+}
+
+.button {
+	background: black;
+	width: 244px;
+	height: 25px;
+	color: white;
+	border: solid 3px black;
+}
+
+#battlelogTitle,
+#battlelog {
+	width:750;
+	background: white;
+	min-height: 20px;
+	text-align: left;
+	font-family: 'Special Elite', cursive;
+}
+
+#battlelogTitle {
+	font-weight: bold;
+}
+
+
+#vs {
+	filter: invert(100%);
+	height: 200px;
+	margin: auto;
+}
+
+#fightZone {
+	height:300px;
+	margin: auto;
+	text-align: center;
+	width:768px;
+}
+
+.flipped {
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
